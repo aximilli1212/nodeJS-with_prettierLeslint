@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-with_prettierleslint",
+  "version": "1.0.0",
+  "description": "With Prettier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aximilli1212/nodeJS-with_prettierLeslint.git"
+  },
+  "author": "Aximilli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aximilli1212/nodeJS-with_prettierLeslint/issues"
+  },
+  "homepage": "https://github.com/aximilli1212/nodeJS-with_prettierLeslint#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
