@@ -10,11 +10,16 @@ app.get('/api/playlists', function(req,res){
         res.json(response);
     })
 })
+
 //Get Single Playlist
 app.get('/api/playlists/:id', function(req,res){
     let {id} = req.params;
     Playlist.findByPk(id).then(response=>{
-        res.json(response);
+        if(response){
+            res.json(response);
+        }else{
+            res.status(404).send();
+        }
     })
 })
 
